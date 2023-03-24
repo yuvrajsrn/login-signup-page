@@ -1,0 +1,298 @@
+@font-face {
+  font-family: "Gilroy Light";
+  src: url("assets/Gilroy-Light.otf");
+}
+
+@font-face {
+  font-family: "Gilroy Semi-Bold";
+  src: url("assets/fonts/Gilroy-SemiBold.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url("assets/bgImage.svg");
+}
+
+.text {
+  font-family: "Gilroy Semi-Bold";
+  font-size: 7.5rem;
+  
+  font-weight: bold;
+  position: center;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  text-align: center;
+  padding: 80px 0px 0px 0px;
+}
+
+.green,
+.black {
+  font-family: "Gilroy Semi-Bold", sans-serif;
+}
+
+.green {
+  color: #268540;
+}
+
+.black {
+  color: black;
+}
+
+.tagline {
+  font-size: 2.7rem;
+  font-family: "Gilroy Light", sans-serif;
+  /*display:flex;*/
+  margin: auto;
+  justify-content: center;
+  text-align: center;
+}
+
+.signUp,
+.logIn {
+  background-color: #4e9c64;
+  font-family: "Gilroy Light", sans-serif;
+  color: #ebe691;
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: bold;
+  width: 100%;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+
+.next {
+  display: flex;
+  width: 500px;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}
+
+.logIn {
+  margin-left: 20px;
+}
+
+.signUp {
+  margin-left: auto;
+}
+
+/*
+.signUp,.logIn{
+    justify-content: center;
+    align-items: center;
+}
+*/
+
+/*  
+.logIn{
+    margin:0px;
+    justify-content: center;
+    align-items: center;
+}
+*/
+
+/*
+.signUp,.logIn{
+    background-color:#4E9C64;
+    color:#EBE691;
+    padding:1rem;
+    width:10%;
+    border-radius:2rem;
+    font-size:1.4rem;
+     text-decoration: none;
+     text-align: center;
+    border:none;
+    font-family: Poppins,sans-serif;
+    font-weight:bold;
+}
+*/
+
+a:link {
+  text-decoration: none;
+}
+
+.signUp:hover,
+.logIn:hover {
+  transform: scale(1.05);
+  transition: transform 0.2s;
+}
+
+/*
+.signUp{
+    margin-left:8rem;
+    margin-top:4rem;
+    margin-right: 3rem;
+}
+*/
+
+ @media screen and (max-width:700px)
+{
+    .text {
+        font-family: "Gilroy Semi-Bold";
+        font-size: 100px;
+        font-weight: bold;
+        position: center;
+        display: flex;
+        margin: auto;
+        justify-content: center;
+        text-align: center;
+        padding: 80px 0px 0px 0px;
+      }
+
+    .tagline{
+        text-align: center;
+        margin-left:auto;
+        margin-top:1rem;
+        font-size: 35px;;
+    }
+
+
+    .button1, .button2{
+        width:50%;
+        margin-left:25%;
+        font-size:1.5rem;
+        font-weight:bold;
+       
+    }
+
+    .button2{
+        margin-top:2rem;
+    }
+    
+
+    .illustration{
+        display:none;
+    }
+} 
+
+
+@media screen and (max-width:500px)
+{
+    .text {
+        font-family: "Gilroy Semi-Bold";
+        font-size: 85px;
+        font-weight: bold;
+        position: center;
+        display: flex;
+        margin: auto;
+        justify-content: center;
+        text-align: center;
+        padding: 80px 0px 0px 0px;
+      }
+
+    .tagline{
+        text-align: center;
+        margin-left:auto;
+        margin-top:1rem;
+        font-size: 32px;;
+    }
+
+
+    .button1, .button2{
+        width:50%;
+        margin-left:25%;
+        font-size:1.5rem;
+        font-weight:bold;
+        
+    }
+
+    .button2{
+        margin-top:2rem;
+    }
+    
+
+    .illustration{
+        display:none;
+    }
+} 
+
+@media screen and (max-width:500px)
+{
+    .text {
+        font-family: "Gilroy Semi-Bold";
+        font-size: 85px;
+        font-weight: bold;
+        position: center;
+        display: flex;
+        margin: auto;
+        justify-content: center;
+        text-align: center;
+        padding: 80px 0px 0px 0px;
+      }
+
+    .tagline{
+        text-align: center;
+        margin-left:auto;
+        margin-top:1rem;
+        font-size: 32px;;
+    }
+
+
+    .button1, .button2{
+        width:50%;
+        margin-left:25%;
+        font-size:1.5rem;
+        font-weight:bold; 
+    }
+
+    .button2{
+        margin-top:2rem;
+    }
+
+    .illustration{
+        display:none;
+    }
+} 
+
+
+@media screen and (max-width:300px)
+{
+    .text {
+        font-family: "Gilroy Semi-Bold";
+        font-size: 75px;
+        font-weight: bold;
+        position: center;
+        display: flex;
+        margin: auto;
+        justify-content: center;
+        text-align: center;
+        padding: 80px 0px 0px 0px;
+      }
+
+    .tagline{
+        text-align: center;
+        margin-left:auto;
+        margin-top:1rem;
+        font-size: 28px;;
+    }
+
+
+    .button1, .button2{
+        width:50%;
+        margin-left:25%;
+        font-size:1.5rem;
+        font-weight:bold; 
+    }
+
+    .button2{
+        margin-top:2rem;
+    }
+
+    .illustration{
+        display:none;
+    }
+} 
