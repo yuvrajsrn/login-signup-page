@@ -13,9 +13,9 @@ window.addEventListener("load", () => {
 });
 
 logInButton.addEventListener("click", () => {
-  location.href = "/Log-In/login.html";
+  location.href = "log-in/login.html";
 });
 
 signUpButton.addEventListener("click", () => {
-  location.href = "/Sign-Up/signup.html";
+  location.href = "sign-up/signup.html";
 });
